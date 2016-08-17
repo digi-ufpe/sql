@@ -1,0 +1,20 @@
+Instalação e configuração do Mysql no Centos:
+
+1-Para instalar o Mysql, abra o terminal e digite os seguintes comandos:
+
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-centos-6
+
+
+2- Criar e configurar um usuario no mysql
+https://www.digitalocean.com/community/tutorials/como-criar-um-novo-usuario-e-conceder-permissoes-no-mysql-pt
+http://wime.com.br/2013/06/13/como-adicionar-e-excluir-usuarios-no-centos-6/
+
+
+3- Instalando PHP e phpMyAdmin
+
+http://www.tecdicas.com/servidor-centos-7-instalando-o-php-e-phpmyadmin/
+outras referencias:
+
+
+outras referencias:
+http://www.tecdicas.com/servidor-centos-7-instalando-o-mysql-server/
