@@ -1,7 +1,3 @@
---logar mysql -u digi -p;
---senha proacad@00
---create database nome;	--cria um db
---show databases;	--mostra todos os bd
 
 CREATE TABLE evento(
 	Id_Evento integer NOT NULL,
@@ -18,8 +14,8 @@ CREATE TABLE stand(
 
 CREATE TABLE participante(
 	Id_Participante INTEGER NOT NULL,
-	Cpf VARCHAR(14) NOT NULL, --000.000.000-00
-	Nome VARCHAR(255) CHARACTER SET utf8 NOT NULL
+	Cpf VARCHAR(14) NOT NULL,
+	Nome VARCHAR(255) CHARACTER SET utf8 NOT NULL,
 	PRIMARY KEY (Id_Participante)
 );
 
@@ -40,6 +36,3 @@ CREATE TABLE gerenciamento(
 	Id_Gestor INTEGER NOT NULL,
 	Id_Stand INTEGER NOT NULL
 );
-
-INSERT INTO evento(Id_Evento, Nome)
-VALUES (1, "JOÃO FRANSISCO");
